@@ -1,0 +1,38 @@
+{
+  // 每次保存的时候自动格式化
+  "editor.formatOnSave": true,
+  // 重新设定 tabsize
+  "editor.tabSize": 2,
+  // 添加文件类型支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // 每次保存的时候将代码按 eslint 格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // 用 prettier 进行格式化
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.options.tabSize": 4,
+  "vetur.format.scriptInitialIndent": false,
+  "vetur.format.styleInitialIndent": false,
+  // 自动识别 ts 语法定义的属性
+  "vetur.experimental.templateInterpolationService": false,
+  // 在函数名和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  // 默认行尾字符
+  "files.eol": "\n",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": true,
+      "singleQuote": true
+    }
+  }
+}
